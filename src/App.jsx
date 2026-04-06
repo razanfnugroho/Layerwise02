@@ -115,7 +115,7 @@ export default function App() {
                 {/* Team Logo */}
                 <div className="w-20 h-20 flex-shrink-0">
                   <img 
-                    src="https://imgur.com/a/bmcn2dd" 
+                    src="https://i.imgur.com/XR9WAjg.png" 
                     alt="Layerwise Team Logo"
                     className="w-full h-full object-contain drop-shadow-lg"
                   />
