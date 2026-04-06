@@ -117,6 +117,7 @@ export default function App() {
                   <img 
                     src="https://i.imgur.com/XR9WAjg.png" 
                     alt="Layerwise Team Logo"
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-contain drop-shadow-lg"
                   />
                 </div>
