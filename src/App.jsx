@@ -115,7 +115,7 @@ export default function App() {
                 {/* Team Logo */}
                 <div className="w-20 h-20 flex-shrink-0">
                   <img 
-                    src="https://i.imgur.com/sSt3y33.png" 
+                    src="https://i.imgur.com/Wryhn1q.png" 
                     alt="Layerwise Team Logo"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-contain drop-shadow-lg"
