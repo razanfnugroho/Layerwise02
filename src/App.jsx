@@ -229,7 +229,7 @@ export default function App() {
                       {floodRisk.level === 'TINGGI' ? '⚠️ SIAGA' : 
                        floodRisk.level === 'SEDANG' ? '⚡ WASPADA' : '✓ AMAN'}
                     </div>
-                    <p className="text-gray-650 font-semibold mt-3 text-lg">
+                    <p className="text-gray-7000 font-semibold mt-3 text-lg">
                       Skor Risiko: <span style={{ color: floodRisk.color }}>{floodRisk.score.toFixed(1)}</span>/100
                     </p>
                   </div>
