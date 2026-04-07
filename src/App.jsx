@@ -7,9 +7,9 @@ export default function App() {
 
   // Dummy data simulating OneCall API 3.0
   const weatherData = {
-    location: "Banjarmasin, Kalimantan Selatan",
-    lat: -3.3194,
-    lon: 114.5906,
+    location: "Martapura, Kalimantan Selatan",
+    lat: -3.417,
+    lon: 114.850,
     current: {
       temp: 28.5,
       humidity: 85,
@@ -95,7 +95,7 @@ export default function App() {
               {currentTime.toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}
             </span>
             <div className="flex items-center gap-4">
-              <span className="font-semibold">STANDAR WAKTU INDONESIA</span>
+              <span className="font-semibold">Waktu Setempat</span>
               <span className="font-mono font-bold bg-white/20 px-3 py-1 rounded">
                 {currentTime.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' })} WIB
               </span>
@@ -159,7 +159,7 @@ export default function App() {
               <span className="text-gray-400">›</span>
               <a href="#" className="hover:text-cyan-600 font-medium">Cuaca Kalimantan Selatan</a>
               <span className="text-gray-400">›</span>
-              <span className="text-gray-900 font-semibold">Kota Banjarmasin</span>
+              <span className="text-gray-900 font-semibold">Kota Martapura</span>
             </div>
           </div>
         </div>
@@ -169,10 +169,10 @@ export default function App() {
           {/* Page Title */}
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-lg">
-              Prakiraan Peringatan Banjir Kota Banjarmasin
+              Prakiraan Peringatan Banjir Kota Martapura
             </h1>
             <p className="text-white/90 text-lg drop-shadow">
-              Prakiraan peringatan banjir kecamatan di Kota Banjarmasin, Kalimantan Selatan
+              Prakiraan peringatan banjir kecamatan di Kota Martapura, Kalimantan Selatan
             </p>
           </div>
 
@@ -258,7 +258,7 @@ export default function App() {
               <div className="grid grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-gray-500 text-xs uppercase mb-1">Kecamatan</div>
-                  <div className="font-semibold text-gray-900">Banjarmasin Selatan</div>
+                  <div className="font-semibold text-gray-900">Martapura</div>
                 </div>
                 <div>
                   <div className="text-gray-500 text-xs uppercase mb-1">Koordinat</div>
