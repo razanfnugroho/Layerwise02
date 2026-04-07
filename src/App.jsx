@@ -97,7 +97,7 @@ export default function App() {
             <div className="flex items-center gap-4">
               <span className="font-semibold">Waktu Setempat</span>
               <span className="font-mono font-bold bg-white/20 px-3 py-1 rounded">
-                {currentTime.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' })} WIB
+                {currentTime.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' })} WITA
               </span>
               <span className="text-white/60">|</span>
               <span className="font-mono text-white/80">
@@ -267,7 +267,7 @@ export default function App() {
                 <div>
                   <div className="text-gray-500 text-xs uppercase mb-1">Pembaruan Terakhir</div>
                   <div className="font-semibold text-gray-900">
-                    {currentTime.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })} WIB
+                    {currentTime.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })} WITA
                   </div>
                 </div>
               </div>
